@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var mRecycler: RecyclerView
     private lateinit var citiesAdapter: CitiesAdapter
     private lateinit var readJson: ReadingJson
-    private lateinit var city: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
